@@ -40,6 +40,8 @@ public class BatteryMeterView extends ImageView {
     @VisibleForTesting
     ColorFilter mAccentColorFilter;
 
+    private int mLevel;
+
     public BatteryMeterView(Context context) {
         this(context, null, 0);
     }
@@ -68,6 +70,7 @@ public class BatteryMeterView extends ImageView {
     }
 
     public void setBatteryLevel(int level) {
+        mLevel = level;
         mDrawable.setBatteryLevel(level);
         if (level < mDrawable.getCriticalLevel()) {
             mDrawable.setColorFilter(mErrorColorFilter);
@@ -77,7 +80,7 @@ public class BatteryMeterView extends ImageView {
     }
 
     public int getBatteryLevel() {
-        return mDrawable.getBatteryLevel();
+        return mLevel;
     }
 
     public void setCharging(boolean charging) {
