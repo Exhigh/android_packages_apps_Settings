@@ -109,11 +109,10 @@
             android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
             android:layout="@layout/rr_font_size_layout"  />
 
-       <com.android.settings.applications.LayoutPreference
+  <!--<com.android.settings.applications.LayoutPreference
             android:key="rr_aplay"
             android:fragment="com.android.settings.custom.ambient.AmbientPlaySettings"
-            android:layout="@layout/rr_aplay_layout"
-          />
+            android:layout="@layout/rr_aplay_layout" /> -->
 
        <com.android.settings.applications.LayoutPreference
             android:key="rr_ss"
