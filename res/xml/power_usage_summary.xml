@@ -50,6 +50,12 @@
         android:key="perf_profile_settings"
         lineage:replacesKey="battery_saver_summary" />
 
+    <com.rr.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_battery_estimate"
+        android:title="@string/battery_estimates_title"
+        android:summary="@string/battery_estimates_summary"
+        android:defaultValue="false" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
