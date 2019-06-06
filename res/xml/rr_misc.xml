@@ -26,6 +26,12 @@
         android:title="@string/show_cpu_info"
         android:summary="@string/show_cpu_info_summary" 
         android:defaultValue="false" />
+    
+     <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary"
+        android:fragment="com.rr.settings.preferences.GamingMode" />
 
      <com.rr.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_guts_kill_app_button"
