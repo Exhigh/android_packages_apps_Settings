@@ -50,8 +50,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 LOCAL_JAVA_LIBRARIES := \
     bouncycastle \
     telephony-common \
-    ims-common \
-    telephony-ext
+    ims-common
 
 LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
