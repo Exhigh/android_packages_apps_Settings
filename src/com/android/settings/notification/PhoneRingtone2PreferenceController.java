@@ -23,10 +23,6 @@ import android.telephony.TelephonyManager;
 import android.support.v7.preference.PreferenceScreen;
 
 import com.android.settings.DefaultRingtonePreference;
-<<<<<<< HEAD
-=======
-import com.android.settings.R;
->>>>>>> 91e97ee514... Phone ringtone setting for Multi SIM device
 import com.android.settings.Utils;
 
 public class PhoneRingtone2PreferenceController extends RingtonePreferenceControllerBase {
@@ -45,12 +41,6 @@ public class PhoneRingtone2PreferenceController extends RingtonePreferenceContro
         DefaultRingtonePreference ringtonePreference =
                 (DefaultRingtonePreference) screen.findPreference(KEY_PHONE_RINGTONE2);
         ringtonePreference.setSlotId(SLOT_ID);
-<<<<<<< HEAD
-=======
-        ringtonePreference.setTitle(mContext.getString(R.string.ringtone_title) + " - " +
-            String.format(mContext.getString(R.string.sim_card_number_title), 2));
-        ringtonePreference.setEnabled(hasCard());
->>>>>>> 91e97ee514... Phone ringtone setting for Multi SIM device
     }
 
     @Override
@@ -69,13 +59,4 @@ public class PhoneRingtone2PreferenceController extends RingtonePreferenceContro
     public int getRingtoneType() {
         return RingtoneManager.TYPE_RINGTONE;
     }
-<<<<<<< HEAD
-=======
-
-    private boolean hasCard() {
-        TelephonyManager telephonyManager =
-                (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
-        return telephonyManager.hasIccCard(SLOT_ID);
-    }
->>>>>>> 91e97ee514... Phone ringtone setting for Multi SIM device
 }
