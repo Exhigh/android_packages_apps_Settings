@@ -1292,18 +1292,6 @@
     <string name="force_ambient_for_media_on_forced">Enabled and forced</string>
     <string name="force_ambient_for_media_on_forced_clean">Enabled and forced minimal</string>
 
-    <!-- Ambient Play -->
-    <string name="ambient_play_settings_title">Check out \"Now Playing\"</string>
-    <string name="ambient_play_settings_summary">Be notified of music being played around you</string>
-    <string name="ambient_play_title" translatable="false">@*android:string/ambient_recognition_notification</string>
-    <string name="ambient_play_summary">Show nearby songs</string>
-    <string name="ambient_play_lockscreen_title">Show songs on lock screen</string>
-    <string name="ambient_play_notifications_title">Notifications</string>
-    <string name="ambient_play_switch_bar_on">On</string>
-    <string name="ambient_play_switch_bar_off">Off</string>
-    <string name="ambient_play_help_text">When music is playing nearby, you can see the song name and artist. Battery life and data usage may be affected if this is enabled.</string>
-    <string name="ambient_play_cat">Now Playing</string>
-
     <!-- Ambient display battery percentage -->
     <string name="ambient_battery_percent_title">Battery percent on Ambient Display</string>
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>

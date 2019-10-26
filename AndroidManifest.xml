@@ -3449,7 +3449,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.custom.ambient.AmbientPlaySettings" />
+                android:value="com.android.settings.AmbientPlaySettings" />
         </activity>
 
         <provider android:name=".slices.SettingsSliceProvider"
