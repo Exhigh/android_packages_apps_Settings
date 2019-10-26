@@ -332,6 +332,7 @@
     <string name="ticker_title">Status bar ticker</string>
     <string name="ticker_summary">Enable the old status bar ticker</string>
 
+
     <!-- Statusbar ticker -->
     <string name="status_bar_ticker_title">Ticker</string>
     <string name="status_bar_show_ticker_title">Ticker</string>
@@ -341,7 +342,7 @@
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
 
-<<<<<<< HEAD
+
 
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
@@ -1223,8 +1224,6 @@
     <string name="pa_pie_gravity_bottom">Bottom</string>
     <string name="pa_pie_gravity_right">Right</string>
     <string name="pa_pie_gravity_left">Left</string>
-
-
 
    <!-- Force expanded notifications -->
    <string name="force_expanded_notifications_title">Force expanded notifications</string>
