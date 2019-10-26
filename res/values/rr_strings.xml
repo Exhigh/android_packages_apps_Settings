@@ -2366,4 +2366,11 @@
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Charging animation</string>
     <string name="lockscreen_charging_animation_summary">Display animation when charging</string>
+
+     <!-- AmbientDisplay music ticker -->
+    <string name="force_ambient_for_media_title">Music Ticker</string>
+    <string name="force_ambient_for_media_summary">Show track info when pulsing and force pulse when new track starts</string>
+
+</resources>
+
 </resources>
