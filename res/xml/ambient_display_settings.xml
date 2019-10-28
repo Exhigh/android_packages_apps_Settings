@@ -21,6 +21,12 @@
     android:key="ambient_display_preference_screen"
     settings:keywords="@string/keywords_ambient_display_screen"
     android:title="@string/ambient_display_screen_title">
+    
+     <com.rr.settings.preference.SystemSettingSwitchPreference
+            android:key="force_ambient_for_media"
+            android:title="@string/force_ambient_for_media_title"
+            android:summary="@string/force_ambient_for_media_summary"
+            android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
@@ -56,12 +62,6 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
         
-        <com.rr.settings.preference.SystemSettingSwitchPreference
-            android:key="force_ambient_for_media"
-            android:title="@string/force_ambient_for_media_title"
-            android:summary="@string/force_ambient_for_media_summary"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>
