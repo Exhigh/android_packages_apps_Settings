@@ -2391,4 +2391,14 @@
     <string name="dynamic_mode_footer">Whenever you open any app and the system finds it to be a game, Gaming mode will be automatically enabled. After you clear the app from recents, all user settings will be restored. Please note that this does not work for every game app.</string>
     <string name="dynamic_mode_footer_dialer">Some dialer specific features such as \"Answer calls via speaker\" will only work with AOSP Dialer app."</string>
 
+     <!-- Breathing Notifications -->
+    <string name="breathing_notifications_category">Breathing Notifications</string>
+    <string name="breathing_notifications_title">Breathing notifications</string>
+    <string name="sms_breath_title">Breathing SMS</string>
+    <string name="sms_breath_summary">Will give your sms notifications a breathing effect in the status bar</string>
+    <string name="missed_call_breath_title">Breathing Missed Call</string>
+    <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
+    <string name="voicemail_breath_title">Breathing Voicemail</string>
+    <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
+
 </resources>
